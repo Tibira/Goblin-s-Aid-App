@@ -1,5 +1,6 @@
 package com.example.tibiria.goblinsaidapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -109,14 +110,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
 
-        String local = spnSelecao.getSelectedItem().toString();
-        if (view.getId() == R.id.btnShow) {
             String select = spnSelecao.getSelectedItem().toString();
 
             if (select.trim().isEmpty()) {
                 Toast.makeText(this, "Selecione uma pesquisa", Toast.LENGTH_SHORT).show();
                 return;
             }
-        }
+
+        Intent intent = new Intent(this, ListaActivity.class);
     }
 }

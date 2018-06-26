@@ -15,7 +15,7 @@ public class MagiasAdapter extends BaseAdapter{
     Context ctx;
     List<Magias> magias;
 
-    public MagiasAdapter(Context applicationContext, List<Magias> magias, String s) {
+    public MagiasAdapter(Context applicationContext, List<Magias> magias) {
         this.ctx = ctx;
         this.magias = magias;
 

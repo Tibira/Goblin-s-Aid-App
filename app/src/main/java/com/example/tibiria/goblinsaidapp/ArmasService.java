@@ -6,7 +6,7 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface ArmasService {
-    @GET("lista_armas.php")
+    @GET("consulta_armas.php")
     Call<List<Armas>> getArmas();
 
 }

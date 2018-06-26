@@ -14,7 +14,7 @@ public class ArmasAdapter extends BaseAdapter {
     Context ctx;
     List<Armas> armas;
 
-    public ArmasAdapter(Context ctx, List<Armas> armas, String s) {
+    public ArmasAdapter(Context ctx, List<Armas> armas) {
         this.ctx = ctx;
         this.armas = armas;
     }
