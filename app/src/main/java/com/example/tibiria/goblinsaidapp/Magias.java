@@ -1,4 +1,4 @@
-package com.example.sdf.goblinsaidapp;
+package com.example.tibiria.goblinsaidapp;
 
 public class Magias {
     public String nome;

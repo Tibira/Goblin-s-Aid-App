@@ -1,4 +1,4 @@
-package com.example.sdf.goblinsaidapp;
+package com.example.tibiria.goblinsaidapp;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -14,7 +14,7 @@ public class ArmasAdapter extends BaseAdapter {
     Context ctx;
     List<Armas> armas;
 
-    public ArmasAdapter(Context ctx, List<Armas> armas) {
+    public ArmasAdapter(Context ctx, List<Armas> armas, String s) {
         this.ctx = ctx;
         this.armas = armas;
     }

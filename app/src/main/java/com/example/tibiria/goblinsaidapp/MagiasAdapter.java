@@ -1,4 +1,4 @@
-package com.example.sdf.goblinsaidapp;
+package com.example.tibiria.goblinsaidapp;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,13 +7,15 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import com.example.tibiria.goblinsaidapp.R;
+
 import java.util.List;
 
 public class MagiasAdapter extends BaseAdapter{
     Context ctx;
     List<Magias> magias;
 
-    public MagiasAdapter(Context ctx, List<Magias> magias) {
+    public MagiasAdapter(Context applicationContext, List<Magias> magias, String s) {
         this.ctx = ctx;
         this.magias = magias;
 
