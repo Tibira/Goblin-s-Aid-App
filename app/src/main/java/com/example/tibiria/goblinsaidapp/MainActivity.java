@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     List<Magias> lista = response.body();
 
                     MagiasAdapter adapter = new MagiasAdapter(
-                            getApplicationContext(), lista, "http://10.0.2.2/goblins_aid/");
+                             getApplicationContext(), lista);
 
                     lvListagem.setAdapter(adapter);
                 }
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     List<Armas> lista = response.body();
 
                     ArmasAdapter adapterArma = new ArmasAdapter(
-                            getApplicationContext(), lista, "http://10.0.2.2/goblins_aid/");
+                            getApplicationContext(), lista);
 
                     lvListagem.setAdapter(adapterArma);
                 }
